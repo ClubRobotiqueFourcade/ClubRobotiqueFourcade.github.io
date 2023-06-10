@@ -18,12 +18,12 @@ timezone: Europe/Paris
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: CROF # the main title
+title: CRoF # the main title
 
 tagline: Equipe Française de robotique # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  CROF, c'est une équipe de robotique qui participe chaque année à La Coupe de France de Robotique organisée par l'association Planète Science !
+  CRoF, c'est une équipe de robotique qui participe chaque année à La Coupe de France de Robotique organisée par l'association Planète Science !
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'http://clubrobotiquefourcade.github.io/'
@@ -38,7 +38,7 @@ github:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Crof
+  name: ClubRobotiqueFourcade
   email: robotique.fourcade@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
@@ -78,7 +78,7 @@ theme_mode: # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn:
+img_cdn: assets/img/logo.jpg
 
 # the avatar on sidebar, support local or CORS resources
 avatar:
