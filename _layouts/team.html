@@ -1,0 +1,19 @@
+---
+layout: page
+---
+
+<div class="row">
+    {% for team in site.team %}
+    <div class="col-sm-4 d-flex align-items-stretch" style="margin-bottom: 0,5rem !important">
+      <div class="card mb-3">
+        <img class="card-img-top bg-white" src="../assets/img/team/{{ team.img }}" alt="{{ team.name }}">
+        <div class="card-body">
+          <p class="card-text">{{team.description}}</p>
+        </div>
+        <div class="card-footer">
+          <a href="{{team.link}}" class="btn btn-primary">Site officiel</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+    </div>
