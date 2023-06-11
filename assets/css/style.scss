@@ -47,6 +47,10 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
   background-color: var(--card-bg-color);
 }
 
+.card-text {
+  font-size: 14px !important;
+}
+
 .fa-robot-link {
   
   background-color: var(--link-robot-bg-color);
